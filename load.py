@@ -2,7 +2,7 @@ import scipy.io as scio
 import numpy as np
 import math
 
-data = scio.loadmat(r"D:\VSCode_python\EHH\bouc-wen.mat")
+data = scio.loadmat(r"./data/bouc-wen.mat")
 
 uval_multisine = data['uval_multisine']
 yval_multisine = data['yval_multisine']
